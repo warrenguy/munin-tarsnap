@@ -1,6 +1,8 @@
 Munin plugin for Tarsnap
 ========================
 
+https://github.com/warrenguy/munin-tarsnap
+
 This plugin creates two graphs:
 
 * *tarsnap_total* - summarising the total amount of data the local tarsnap
