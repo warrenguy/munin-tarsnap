@@ -47,7 +47,7 @@ EOM
     exit 0;;
 esac
 
-NUMBERS=`cat $STATSFILE | sed -e 's/All\ archives\ *//g' -e 's/(unique\ data)\ *//g' -e 's/^\ *//g' -e 's/\ /\n/g' |grep -v ^$ |egrep "[0-9]+"`
+NUMBERS=`cat $STATSFILE | sed -e 's/[a-zA-Z\(\)]//g' -e 's/\ /\n/g' |grep -v ^$`
 LINE=0
 for NUMBER in $NUMBERS; do
   LINE=`expr $LINE + 1`
