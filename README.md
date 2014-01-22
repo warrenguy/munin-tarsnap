@@ -37,3 +37,8 @@ Author
 Warren Guy <warren@guy.net.au>
 
 https://warrenguy.me
+
+Copyright
+---------
+
+Copyright (C) 2014 Warren Guy <warren@guy.net.au>
